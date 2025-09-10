@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/TrackingDataUDPTransfer/CMakeLists.txt
+  TrackingDataClientUDPTransfer.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Examples\TrackingDataUDPTransfer\TrackingDataClientUDPTransfer.cxx(67,29): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/TrackingDataClientUDPTransfer.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/TrackingDataClientUDPTransfer.exp
+  TrackingDataClientUDPTransfer.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\TrackingDataClientUDPTransfer.exe

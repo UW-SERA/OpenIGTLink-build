@@ -1,0 +1,43 @@
+﻿  igtlClientSocketTest.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(28,18): error C2039: '_': is not a member of 'testing'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\igtlTestConfig.h(41,11):
+      see declaration of 'testing'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(28,1): error C2873: '_': symbol cannot be used in a using-declaration
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(29,18): error C2039: 'AtLeast': is not a member of 'testing'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\igtlTestConfig.h(41,11):
+      see declaration of 'testing'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(29,1): error C2873: 'AtLeast': symbol cannot be used in a using-declaration
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(30,18): error C2039: 'Invoke': is not a member of 'testing'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\igtlTestConfig.h(41,11):
+      see declaration of 'testing'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(30,1): error C2873: 'Invoke': symbol cannot be used in a using-declaration
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(31,18): error C2039: 'IsNull': is not a member of 'testing'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\igtlTestConfig.h(41,11):
+      see declaration of 'testing'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(31,1): error C2873: 'IsNull': symbol cannot be used in a using-declaration
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(48,16): error C2061: syntax error: identifier 'ConnectToServer'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(48,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(48,3): warning C4183: 'MOCK_METHOD3': missing return type; assumed to be a member function returning 'int'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(43,36): error C2065: '_': undeclared identifier
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(43,38): error C2065: '_': undeclared identifier
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(43,40): error C2065: '_': undeclared identifier
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(43,20): error C3861: 'ConnectToServer': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(43,5): error C3861: 'ON_CALL': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(44,22): error C3861: 'Invoke': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(67,49): error C2065: '_': undeclared identifier
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(67,51): error C2065: '_': undeclared identifier
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(67,53): error C2065: '_': undeclared identifier
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(67,33): error C3861: 'ConnectToServer': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(67,3): error C3861: 'EXPECT_CALL': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(68,3): error C2039: 'ConnectToServer': is not a member of 'ClientSocketMock'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(38,7):
+      see declaration of 'ClientSocketMock'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(71,3): error C2039: 'ConnectToServer': is not a member of 'ClientSocketMock'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(38,7):
+      see declaration of 'ClientSocketMock'
+  

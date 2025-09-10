@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/Point/CMakeLists.txt
+  PointServer.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/PointServer.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/PointServer.exp
+  PointServer.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\PointServer.exe

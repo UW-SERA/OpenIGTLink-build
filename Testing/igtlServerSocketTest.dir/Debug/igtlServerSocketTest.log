@@ -1,0 +1,98 @@
+﻿  igtlServerSocketTest.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(27,18): error C2039: '_': is not a member of 'testing'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\igtlTestConfig.h(41,11):
+      see declaration of 'testing'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(27,1): error C2873: '_': symbol cannot be used in a using-declaration
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(28,18): error C2039: 'AtLeast': is not a member of 'testing'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\igtlTestConfig.h(41,11):
+      see declaration of 'testing'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(28,1): error C2873: 'AtLeast': symbol cannot be used in a using-declaration
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(29,18): error C2039: 'Invoke': is not a member of 'testing'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\igtlTestConfig.h(41,11):
+      see declaration of 'testing'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(29,1): error C2873: 'Invoke': symbol cannot be used in a using-declaration
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(31,18): error C2039: 'IsNull': is not a member of 'testing'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\igtlTestConfig.h(41,11):
+      see declaration of 'testing'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(31,1): error C2873: 'IsNull': symbol cannot be used in a using-declaration
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(52,16): error C2061: syntax error: identifier 'GetServerPort'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(52,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(52,3): warning C4183: 'MOCK_METHOD0': missing return type; assumed to be a member function returning 'int'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(53,16): error C2061: syntax error: identifier 'CreateServer'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(53,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(53,3): warning C4183: 'MOCK_METHOD1': missing return type; assumed to be a member function returning 'int'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(54,16): error C2061: syntax error: identifier 'WaitForConnection'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(54,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(54,3): error C2535: 'int ServerSocketMock::MOCK_METHOD1(void)': member function already defined or declared
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(53,3):
+      see declaration of 'ServerSocketMock::MOCK_METHOD1'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(54,3): warning C4183: 'MOCK_METHOD1': missing return type; assumed to be a member function returning 'int'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(55,16): error C2061: syntax error: identifier 'Send'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(55,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(55,3): warning C4183: 'MOCK_METHOD2': missing return type; assumed to be a member function returning 'int'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(40,33): error C2065: '_': undeclared identifier
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(40,20): error C3861: 'CreateServer': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(40,5): error C3861: 'ON_CALL': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(41,22): error C3861: 'Invoke': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(42,20): error C3861: 'GetServerPort': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(42,5): error C3861: 'ON_CALL': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(43,22): error C3861: 'Invoke': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(44,38): error C2065: '_': undeclared identifier
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(44,20): error C3861: 'WaitForConnection': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(44,5): error C3861: 'ON_CALL': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(45,22): error C3861: 'Invoke': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(46,25): error C2065: '_': undeclared identifier
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(46,27): error C2065: '_': undeclared identifier
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(46,20): error C3861: 'Send': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(46,5): error C3861: 'ON_CALL': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(47,22): error C3861: 'Invoke': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(130,33): error C3861: 'CreateServer': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(130,3): error C3861: 'EXPECT_CALL': identifier not found
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(136,36): error C2039: 'CreateServer': is not a member of 'ServerSocketMock'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(33,7):
+      see declaration of 'ServerSocketMock'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(140,65): error C2039: 'WaitForConnection': is not a member of 'ServerSocketMock'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(33,7):
+      see declaration of 'ServerSocketMock'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(175,30): error C2660: 'igtl::Socket::Receive': function does not take 2 arguments
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSocket.h(92,14):
+      see declaration of 'igtl::Socket::Receive'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(175,30):
+      while trying to match the argument list '(void *, igtl_uint64)'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(194,27): error C2059: syntax error: '<<'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(231,11): error C2660: 'igtl::Socket::Receive': function does not take 2 arguments
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSocket.h(92,14):
+      see declaration of 'igtl::Socket::Receive'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(231,11):
+      while trying to match the argument list '(void *, igtl_uint64)'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(263,30): error C2039: 'WaitForConnection': is not a member of 'ServerSocketMock'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(33,7):
+      see declaration of 'ServerSocketMock'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(271,24): error C2660: 'igtl::Socket::Receive': function does not take 2 arguments
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSocket.h(92,14):
+      see declaration of 'igtl::Socket::Receive'
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(271,24):
+      while trying to match the argument list '(void *, igtl_uint64)'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(274,9): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(274,9): error C2561: 'ThreadFunction': function must return a value
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(247,7):
+      see declaration of 'ThreadFunction'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(274,28): error C2059: syntax error: '<<'
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(308,5): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(308,5): error C2561: 'ThreadFunction': function must return a value
+      D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(247,7):
+      see declaration of 'ThreadFunction'
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlServerSocketTest.cxx(308,24): error C2059: syntax error: '<<'

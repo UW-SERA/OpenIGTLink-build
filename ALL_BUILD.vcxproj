@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6050ECA0-EEF6-3DED-82EB-512DDD0FF498}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/STUDIUM/Term4/Project/Repo/OpenIGTLink -BD:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build --check-stamp-file D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeCCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeCXXCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeRCCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeSystem.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\GenerateOpenIGTLinkConfig.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\OpenIGTLinkConfigPlatform.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtlConfigure.h.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtlTypeConfig.h.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtl_typeconfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/STUDIUM/Term4/Project/Repo/OpenIGTLink -BD:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build --check-stamp-file D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeCCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeCXXCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeRCCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeSystem.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\GenerateOpenIGTLinkConfig.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\OpenIGTLinkConfigPlatform.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtlConfigure.h.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtlTypeConfig.h.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtl_typeconfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/STUDIUM/Term4/Project/Repo/OpenIGTLink -BD:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build --check-stamp-file D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeCCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeCXXCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeRCCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeSystem.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\GenerateOpenIGTLinkConfig.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\OpenIGTLinkConfigPlatform.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtlConfigure.h.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtlTypeConfig.h.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtl_typeconfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/STUDIUM/Term4/Project/Repo/OpenIGTLink -BD:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build --check-stamp-file D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeCCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeCXXCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeRCCompiler.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\3.30.0-rc1\CMakeSystem.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\GenerateOpenIGTLinkConfig.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\OpenIGTLinkCMakeTests.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\OpenIGTLinkConfigPlatform.cmake;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\CMake\igtlTestSocklenT.cxx;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\OpenIGTLinkConfig.cmake.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\UseOpenIGTLink.cmake.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtlConfigure.h.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtlTypeConfig.h.in;D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\igtl_typeconfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\ZERO_CHECK.vcxproj">
+      <Project>{68FCC2FA-BA3A-36F0-945F-65915B7FAC8D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Bind\BindClient.vcxproj">
+      <Project>{06802D2C-A7FF-33FB-90E2-1C02B3FA1A40}</Project>
+      <Name>BindClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Capability\CapabilityClient.vcxproj">
+      <Project>{C7F7BCB7-74A2-3102-BF48-3CE2FD9AE73F}</Project>
+      <Name>CapabilityClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Capability\CapabilityServer.vcxproj">
+      <Project>{7C81BE57-DE11-36C7-8E73-E2E3C2E4DCAC}</Project>
+      <Name>CapabilityServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\ImageDatabaseServer\ImageDatabaseServer.vcxproj">
+      <Project>{81B80B6F-8DC0-3282-AFE6-6B6877C2B525}</Project>
+      <Name>ImageDatabaseServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\ImageMeta\ImageMetaClient.vcxproj">
+      <Project>{A1869F1B-863C-3192-A64F-9ECE77D28DC0}</Project>
+      <Name>ImageMetaClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\ImageMeta\ImageMetaServer.vcxproj">
+      <Project>{7838352C-61C6-34D1-98BA-011F592ECDB6}</Project>
+      <Name>ImageMetaServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Imager\ImagerClient.vcxproj">
+      <Project>{76E1C093-0B79-38B6-922B-730DF3E65462}</Project>
+      <Name>ImagerClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Imager\ImagerClient2.vcxproj">
+      <Project>{521CFC9E-2435-3012-9A2B-9927700957F1}</Project>
+      <Name>ImagerClient2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Imager\ImagerClient3.vcxproj">
+      <Project>{9C8D5C51-7A56-3E13-8A02-C9FFDCF7377C}</Project>
+      <Name>ImagerClient3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Imager\ImagerServer.vcxproj">
+      <Project>{B9AA4503-6DD1-35A6-B2F1-E43E13554455}</Project>
+      <Name>ImagerServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Imager\ImagerServer3.vcxproj">
+      <Project>{BBCAAA88-1518-34FE-A0F9-0F4AA2661526}</Project>
+      <Name>ImagerServer3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\ImageMeta\LabelMetaClient.vcxproj">
+      <Project>{F579E94C-AB5E-3F78-8765-0936BC39B12F}</Project>
+      <Name>LabelMetaClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\ImageMeta\LabelMetaServer.vcxproj">
+      <Project>{B26685EE-AF14-3302-AF8F-6429081D3609}</Project>
+      <Name>LabelMetaServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Thread\MultipleMethodExecute.vcxproj">
+      <Project>{CCB8EA02-FD4E-3A5F-BADA-5BA6E61F0F16}</Project>
+      <Name>MultipleMethodExecute</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Source\OpenIGTLink.vcxproj">
+      <Project>{0E29D6D8-A22D-33D2-AFEA-AE7E12975A1D}</Project>
+      <Name>OpenIGTLink</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Point\PointClient.vcxproj">
+      <Project>{A3CD27ED-0F32-3BFF-9875-B8C5D4CCB78A}</Project>
+      <Name>PointClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Point\PointClient3.vcxproj">
+      <Project>{3B81D729-CC6B-38FA-ADF6-799C92A69132}</Project>
+      <Name>PointClient3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Point\PointListServer.vcxproj">
+      <Project>{1C1B36D2-D5D0-3FAA-8BC0-C18738F88BAD}</Project>
+      <Name>PointListServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Point\PointServer.vcxproj">
+      <Project>{15A8F6DC-7B10-3627-BEED-3DE47480A886}</Project>
+      <Name>PointServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Point\PointServer3.vcxproj">
+      <Project>{A13D82F5-1191-3275-8C49-D41BE8BB6B1A}</Project>
+      <Name>PointServer3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\PolyData\PolyDataClient.vcxproj">
+      <Project>{75547E04-C962-3A1F-81AF-D661A7058B44}</Project>
+      <Name>PolyDataClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\PolyData\PolyDataServer.vcxproj">
+      <Project>{1ACDFEAE-7C30-34BE-B74C-9140AA51CE0E}</Project>
+      <Name>PolyDataServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\QuaternionTrackingData\QuaternionTrackingDataClient.vcxproj">
+      <Project>{D3847F3F-B445-308E-9ABD-3D2445E31E3B}</Project>
+      <Name>QuaternionTrackingDataClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\QuaternionTrackingData\QuaternionTrackingDataServer.vcxproj">
+      <Project>{AB589827-31B6-396D-8996-877FD4BF7EC7}</Project>
+      <Name>QuaternionTrackingDataServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Receiver\ReceiveClient.vcxproj">
+      <Project>{A8900437-73AF-3097-AEE2-449CF11EF6A9}</Project>
+      <Name>ReceiveClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Receiver\ReceiveServer.vcxproj">
+      <Project>{271BEF9F-87A2-3FA5-A152-3BEC22285D7D}</Project>
+      <Name>ReceiveServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\SessionManager\SessionManagerServer.vcxproj">
+      <Project>{69F5FBB1-8D3A-3B83-9FEB-6F24F271CB21}</Project>
+      <Name>SessionManagerServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Thread\SingleMethodExecute.vcxproj">
+      <Project>{0C2D60A6-D0C2-3FA4-BA0B-BDD2536C09A6}</Project>
+      <Name>SingleMethodExecute</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Thread\SpawnThread.vcxproj">
+      <Project>{ACE6A8D8-D50C-34D8-813B-7174CF38CF6D}</Project>
+      <Name>SpawnThread</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Status\StatusClient.vcxproj">
+      <Project>{308482CC-30DA-3632-AAF1-7E1BB9720A76}</Project>
+      <Name>StatusClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Status\StatusServer.vcxproj">
+      <Project>{A9F149A5-36C9-383C-9426-DD425CC950F4}</Project>
+      <Name>StatusServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\String\StringClient.vcxproj">
+      <Project>{10E298A5-79F6-34F4-BD63-6DE6E3E3F61C}</Project>
+      <Name>StringClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\String\StringEchoServer.vcxproj">
+      <Project>{C2EEEE47-36AF-3E0D-8536-A57A016F5E58}</Project>
+      <Name>StringEchoServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\String\StringServer.vcxproj">
+      <Project>{4415CCA7-BDAC-37DB-A4BB-7AEE196073BE}</Project>
+      <Name>StringServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Tracker\TrackerClient.vcxproj">
+      <Project>{72DF30C4-44EB-33CD-9BD0-9EECC869F22C}</Project>
+      <Name>TrackerClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Tracker\TrackerClient2.vcxproj">
+      <Project>{97A1F262-AA70-3D85-95D8-410C57CA171E}</Project>
+      <Name>TrackerClient2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Tracker\TrackerClient3.vcxproj">
+      <Project>{FBFE8914-71C7-319E-AB9D-1E093AF62DC4}</Project>
+      <Name>TrackerClient3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Tracker\TrackerServer.vcxproj">
+      <Project>{253676FA-86FA-383A-A0EB-9B32BEFD79BF}</Project>
+      <Name>TrackerServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Tracker\TrackerServer2.vcxproj">
+      <Project>{137B0D46-D2FE-37F2-929E-CEDEF7E3E954}</Project>
+      <Name>TrackerServer2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\TrackingData\TrackingDataClient.vcxproj">
+      <Project>{4B8F1C56-0EB4-3577-B730-365602425022}</Project>
+      <Name>TrackingDataClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\TrackingDataUDPTransfer\TrackingDataClientUDPTransfer.vcxproj">
+      <Project>{960635BD-6DC9-3277-8F60-5740DACA0BB7}</Project>
+      <Name>TrackingDataClientUDPTransfer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\TrackingData\TrackingDataServer.vcxproj">
+      <Project>{41E47B06-12E5-3FB1-9FC5-5CB847B8C6D9}</Project>
+      <Name>TrackingDataServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\TrackingDataUDPTransfer\TrackingDataServerUDPTransfer.vcxproj">
+      <Project>{0F67F7D3-624E-352E-8289-CD80C1243351}</Project>
+      <Name>TrackingDataServerUDPTransfer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Trajectory\TrajectoryClient.vcxproj">
+      <Project>{17B8F92A-599B-33EB-BEB5-4E284C3D7C67}</Project>
+      <Name>TrajectoryClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\Trajectory\TrajectoryServer.vcxproj">
+      <Project>{B9972340-084C-3EE1-833A-2B16F376DCE3}</Project>
+      <Name>TrajectoryServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Source\igtlutil\igtlutil.vcxproj">
+      <Project>{76A671D7-AB73-3A89-8995-86FEBCEDA7A4}</Project>
+      <Name>igtlutil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,12 @@
+digraph "VideoStreaming"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_59e7b1fe656c1fcca22c7fea796b0747 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Source", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_59e7b1fe656c1fcca22c7fea796b0747.html",tooltip=""]
+  dir_727fb5e22d0e4403d7151bdf8bdc3730 [label="VideoStreaming", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_727fb5e22d0e4403d7151bdf8bdc3730.html",tooltip=""];
+  }
+}

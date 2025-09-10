@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Testing/igtlutil/CMakeLists.txt
+  igtl_ndarray_test.c
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlutil\igtl_ndarray_test.c(122,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  igtl_ndarray_test.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtl_ndarray_test.exe

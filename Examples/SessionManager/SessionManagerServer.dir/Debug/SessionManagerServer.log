@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/SessionManager/CMakeLists.txt
+  SessionManagerServer.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/SessionManagerServer.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/SessionManagerServer.exp
+  SessionManagerServer.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\SessionManagerServer.exe

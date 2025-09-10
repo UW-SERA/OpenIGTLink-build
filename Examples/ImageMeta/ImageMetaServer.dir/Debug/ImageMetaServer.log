@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/ImageMeta/CMakeLists.txt
+  ImageMetaServer.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/ImageMetaServer.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/ImageMetaServer.exp
+  ImageMetaServer.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\ImageMetaServer.exe

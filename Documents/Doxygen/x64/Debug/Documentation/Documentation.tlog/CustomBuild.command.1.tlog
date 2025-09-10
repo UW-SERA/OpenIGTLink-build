@@ -1,0 +1,24 @@
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\CMAKEFILES\02EFE88EE1AD6D4AF624CBF5B6F0BD3C\DOCUMENTATION.RULE
+setlocal
+cd D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Utilities\Doxygen
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\doxygen\bin\doxygen.exe" D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Utilities/Doxygen/doxygen.config MAIN_DEPENDENCY D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Utilities/Doxygen/doxygen.config
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK\DOCUMENTS\DOXYGEN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/STUDIUM/Term4/Project/Repo/OpenIGTLink -BD:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build --check-stamp-file D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Documents/Doxygen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

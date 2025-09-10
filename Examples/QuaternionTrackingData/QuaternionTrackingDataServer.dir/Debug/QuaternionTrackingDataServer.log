@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/QuaternionTrackingData/CMakeLists.txt
+  QuaternionTrackingDataServer.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/QuaternionTrackingDataServer.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/QuaternionTrackingDataServer.exp
+  QuaternionTrackingDataServer.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\QuaternionTrackingDataServer.exe

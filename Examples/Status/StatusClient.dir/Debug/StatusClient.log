@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/Status/CMakeLists.txt
+  StatusClient.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/StatusClient.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/StatusClient.exp
+  StatusClient.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\StatusClient.exe

@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_transform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_status.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_position.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_capability.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlClientSocket.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCapabilityMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlConditionVariable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlFastMutexLock.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlImageMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlImageMessage2.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlLightObject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMath.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMultiThreader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMutexLock.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlOSUtil.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlObject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlObjectFactoryBase.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPositionMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlServerSocket.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSessionManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSimpleFastMutexLock.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSocket.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlStatusMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTimeStamp.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTransformMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_colortable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_imgmeta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_lbmeta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_point.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_tdata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_qtdata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_trajectory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_unit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_sensor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_ndarray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_bind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_qtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_polydata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlColorTableMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlImageMetaMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlLabelMetaMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPointMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTrackingDataMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPolyDataMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlQuaternionTrackingDataMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTrajectoryMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlStringMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlUnit.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSensorMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlNDArrayMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCommandMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlQueryMessage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_command.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_query.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageRTPWrapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlGeneralSocket.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlUDPClientSocket.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlUDPServerSocket.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_capability.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_win32header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageHandlerMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCapabilityMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlClientSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlConditionVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCreateObjectFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlFastMutexLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlImageMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlImageMessage2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlLightObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMultiThreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMutexLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlOSUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlObjectFactoryBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPositionMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlServerSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSessionManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSimpleFastMutexLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSmartPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlStatusMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTimeStamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTransformMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlWin32Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_colortable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_imgmeta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_lbmeta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_tdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_qtdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_trajectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_sensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_ndarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_bind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_qtrans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_polydata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlColorTableMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlImageMetaMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlLabelMetaMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPointMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTrackingDataMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPolyDataMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlQuaternionTrackingDataMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTrajectoryMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlStringMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlSensorMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlNDArrayMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCommandMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlQueryMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_query.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageRTPWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlGeneralSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlUDPClientSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlUDPServerSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4A36854E-95D5-35BE-99BA-2DE9D13A32C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5EC27C06-D6CD-3415-97CC-292F8E1E930A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

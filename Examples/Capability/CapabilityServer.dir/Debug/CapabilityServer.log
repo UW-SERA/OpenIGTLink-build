@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/Capability/CMakeLists.txt
+  CapabilityServer.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCapabilityMessage.h(41,73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../../OpenIGTLink/Examples/Capability/CapabilityServer.cxx')
+  
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/CapabilityServer.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/CapabilityServer.exp
+  CapabilityServer.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\CapabilityServer.exe

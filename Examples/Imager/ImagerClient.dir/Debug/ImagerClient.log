@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/Imager/CMakeLists.txt
+  ImagerClient.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/ImagerClient.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/ImagerClient.exp
+  ImagerClient.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\ImagerClient.exe

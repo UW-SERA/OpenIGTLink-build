@@ -1,0 +1,29 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Source/igtlutil/CMakeLists.txt
+  igtl_header.c
+  igtl_image.c
+  igtl_position.c
+  igtl_transform.c
+  igtl_util.c
+  igtl_capability.c
+  igtl_colortable.c
+  igtl_imgmeta.c
+  igtl_lbmeta.c
+  igtl_point.c
+  igtl_tdata.c
+  igtl_qtdata.c
+  igtl_trajectory.c
+  igtl_unit.c
+  igtl_sensor.c
+  igtl_string.c
+  igtl_ndarray.c
+  igtl_bind.c
+  igtl_qtrans.c
+  igtl_polydata.c
+  igtl_command.c
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_bind.c(609,59): warning C4267: '+=': conversion from 'size_t' to 'igtl_uint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_bind.c(647,59): warning C4267: '+=': conversion from 'size_t' to 'igtl_uint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_polydata.c(397,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_polydata.c(600,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_polydata.c(693,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlutil.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlutil.exp
+  igtlutil.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlutil.dll

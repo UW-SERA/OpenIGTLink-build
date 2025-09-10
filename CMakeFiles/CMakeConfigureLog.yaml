@@ -1,0 +1,1460 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.18+a338add32 for .NET Framework
+      Build started 09/09/2025 13:54:55.
+      
+      Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\3.30.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\3.30.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\3.30.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.86
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/3.30.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.18+a338add32 for .NET Framework
+      Build started 09/09/2025 13:54:57.
+      
+      Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\3.30.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\3.30.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\3.30.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.84
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/3.30.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/CMakeScratch/TryCompile-j4ah6a"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/CMakeScratch/TryCompile-j4ah6a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/CMakeScratch/TryCompile-j4ah6a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_583e9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 13:54:58.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\CMakeScratch\\TryCompile-j4ah6a\\cmTC_583e9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_583e9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\CMakeScratch\\TryCompile-j4ah6a\\Debug\\".
+          Creating directory "cmTC_583e9.dir\\Debug\\cmTC_583e9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_583e9.dir\\Debug\\cmTC_583e9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_583e9.dir\\Debug\\cmTC_583e9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_583e9.dir\\Debug\\\\" /Fd"cmTC_583e9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_583e9.dir\\Debug\\\\" /Fd"cmTC_583e9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\CMakeScratch\\TryCompile-j4ah6a\\Debug\\cmTC_583e9.exe" /INCREMENTAL /ILK:"cmTC_583e9.dir\\Debug\\cmTC_583e9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/CMakeScratch/TryCompile-j4ah6a/Debug/cmTC_583e9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/CMakeScratch/TryCompile-j4ah6a/Debug/cmTC_583e9.lib" /MACHINE:X64  /machine:x64 cmTC_583e9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_583e9.vcxproj -> D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\CMakeScratch\\TryCompile-j4ah6a\\Debug\\cmTC_583e9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_583e9.dir\\Debug\\cmTC_583e9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_583e9.dir\\Debug\\cmTC_583e9.tlog\\cmTC_583e9.lastbuildstate".
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\CMakeScratch\\TryCompile-j4ah6a\\cmTC_583e9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.78
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35214.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/CMakeScratch/TryCompile-lwv4od"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/CMakeScratch/TryCompile-lwv4od"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/CMakeScratch/TryCompile-lwv4od'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fba6a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 13:54:59.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\CMakeScratch\\TryCompile-lwv4od\\cmTC_fba6a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fba6a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\CMakeScratch\\TryCompile-lwv4od\\Debug\\".
+          Creating directory "cmTC_fba6a.dir\\Debug\\cmTC_fba6a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fba6a.dir\\Debug\\cmTC_fba6a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fba6a.dir\\Debug\\cmTC_fba6a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fba6a.dir\\Debug\\\\" /Fd"cmTC_fba6a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fba6a.dir\\Debug\\\\" /Fd"cmTC_fba6a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\CMakeScratch\\TryCompile-lwv4od\\Debug\\cmTC_fba6a.exe" /INCREMENTAL /ILK:"cmTC_fba6a.dir\\Debug\\cmTC_fba6a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/CMakeScratch/TryCompile-lwv4od/Debug/cmTC_fba6a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/CMakeScratch/TryCompile-lwv4od/Debug/cmTC_fba6a.lib" /MACHINE:X64  /machine:x64 cmTC_fba6a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_fba6a.vcxproj -> D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\CMakeScratch\\TryCompile-lwv4od\\Debug\\cmTC_fba6a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_fba6a.dir\\Debug\\cmTC_fba6a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_fba6a.dir\\Debug\\cmTC_fba6a.tlog\\cmTC_fba6a.lastbuildstate".
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeFiles\\CMakeScratch\\TryCompile-lwv4od\\cmTC_fba6a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.79
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (PROJECT)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35214.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_18476.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 13:55:01.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_18476.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_18476.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_18476.dir\\Debug\\cmTC_18476.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_18476.dir\\Debug\\cmTC_18476.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_18476.dir\\Debug\\cmTC_18476.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_18476.dir\\Debug\\\\" /Fd"cmTC_18476.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_18476.dir\\Debug\\\\" /Fd"cmTC_18476.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_18476.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_18476.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_18476.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_18476.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_18476.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_18476.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_18476.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_18476.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a329a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 13:56:23.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_a329a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a329a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_a329a.dir\\Debug\\cmTC_a329a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a329a.dir\\Debug\\cmTC_a329a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a329a.dir\\Debug\\cmTC_a329a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a329a.dir\\Debug\\\\" /Fd"cmTC_a329a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a329a.dir\\Debug\\\\" /Fd"cmTC_a329a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_a329a.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_a329a.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_a329a.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_a329a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_a329a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_a329a.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_a329a.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_a329a.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_62ce0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 13:56:37.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_62ce0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_62ce0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_62ce0.dir\\Debug\\cmTC_62ce0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_62ce0.dir\\Debug\\cmTC_62ce0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_62ce0.dir\\Debug\\cmTC_62ce0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_62ce0.dir\\Debug\\\\" /Fd"cmTC_62ce0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_62ce0.dir\\Debug\\\\" /Fd"cmTC_62ce0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_62ce0.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_62ce0.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_62ce0.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_62ce0.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_62ce0.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_62ce0.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_62ce0.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_62ce0.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.66
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_978ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:00:00.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_978ee.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_978ee.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_978ee.dir\\Debug\\cmTC_978ee.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_978ee.dir\\Debug\\cmTC_978ee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_978ee.dir\\Debug\\cmTC_978ee.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_978ee.dir\\Debug\\\\" /Fd"cmTC_978ee.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_978ee.dir\\Debug\\\\" /Fd"cmTC_978ee.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_978ee.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_978ee.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_978ee.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_978ee.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_978ee.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_978ee.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_978ee.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_978ee.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_21498.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:02:57.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_21498.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_21498.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_21498.dir\\Debug\\cmTC_21498.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_21498.dir\\Debug\\cmTC_21498.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_21498.dir\\Debug\\cmTC_21498.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_21498.dir\\Debug\\\\" /Fd"cmTC_21498.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_21498.dir\\Debug\\\\" /Fd"cmTC_21498.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_21498.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_21498.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_21498.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_21498.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_21498.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_21498.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_21498.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_21498.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ed1a8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:02:59.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_ed1a8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ed1a8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_ed1a8.dir\\Debug\\cmTC_ed1a8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ed1a8.dir\\Debug\\cmTC_ed1a8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ed1a8.dir\\Debug\\cmTC_ed1a8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ed1a8.dir\\Debug\\\\" /Fd"cmTC_ed1a8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ed1a8.dir\\Debug\\\\" /Fd"cmTC_ed1a8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_ed1a8.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_ed1a8.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_ed1a8.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_ed1a8.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_ed1a8.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_ed1a8.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_ed1a8.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_ed1a8.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d2bcb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:04:06.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_d2bcb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d2bcb.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_d2bcb.dir\\Debug\\cmTC_d2bcb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d2bcb.dir\\Debug\\cmTC_d2bcb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d2bcb.dir\\Debug\\cmTC_d2bcb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d2bcb.dir\\Debug\\\\" /Fd"cmTC_d2bcb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d2bcb.dir\\Debug\\\\" /Fd"cmTC_d2bcb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_d2bcb.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_d2bcb.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_d2bcb.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_d2bcb.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_d2bcb.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_d2bcb.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_d2bcb.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_d2bcb.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_058db.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:05:39.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_058db.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_058db.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_058db.dir\\Debug\\cmTC_058db.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_058db.dir\\Debug\\cmTC_058db.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_058db.dir\\Debug\\cmTC_058db.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_058db.dir\\Debug\\\\" /Fd"cmTC_058db.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_058db.dir\\Debug\\\\" /Fd"cmTC_058db.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_058db.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_058db.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_058db.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_058db.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_058db.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_058db.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_058db.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_058db.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2f213.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:06:12.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_2f213.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2f213.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_2f213.dir\\Debug\\cmTC_2f213.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2f213.dir\\Debug\\cmTC_2f213.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2f213.dir\\Debug\\cmTC_2f213.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2f213.dir\\Debug\\\\" /Fd"cmTC_2f213.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2f213.dir\\Debug\\\\" /Fd"cmTC_2f213.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_2f213.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_2f213.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_2f213.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_2f213.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_2f213.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_2f213.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_2f213.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_2f213.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_48035.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:08:43.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_48035.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_48035.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_48035.dir\\Debug\\cmTC_48035.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_48035.dir\\Debug\\cmTC_48035.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_48035.dir\\Debug\\cmTC_48035.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_48035.dir\\Debug\\\\" /Fd"cmTC_48035.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_48035.dir\\Debug\\\\" /Fd"cmTC_48035.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_48035.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_48035.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_48035.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_48035.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_48035.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_48035.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_48035.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_48035.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_373da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:17:42.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_373da.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_373da.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_373da.dir\\Debug\\cmTC_373da.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_373da.dir\\Debug\\cmTC_373da.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_373da.dir\\Debug\\cmTC_373da.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_373da.dir\\Debug\\\\" /Fd"cmTC_373da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_373da.dir\\Debug\\\\" /Fd"cmTC_373da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_373da.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_373da.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_373da.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_373da.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_373da.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_373da.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_373da.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_373da.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_14b4d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:28:12.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_14b4d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_14b4d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_14b4d.dir\\Debug\\cmTC_14b4d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_14b4d.dir\\Debug\\cmTC_14b4d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_14b4d.dir\\Debug\\cmTC_14b4d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_14b4d.dir\\Debug\\\\" /Fd"cmTC_14b4d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_14b4d.dir\\Debug\\\\" /Fd"cmTC_14b4d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_14b4d.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_14b4d.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_14b4d.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_14b4d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_14b4d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_14b4d.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_14b4d.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_14b4d.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.63
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f4c3b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:45:51.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f4c3b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f4c3b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_f4c3b.dir\\Debug\\cmTC_f4c3b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f4c3b.dir\\Debug\\cmTC_f4c3b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f4c3b.dir\\Debug\\cmTC_f4c3b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f4c3b.dir\\Debug\\\\" /Fd"cmTC_f4c3b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f4c3b.dir\\Debug\\\\" /Fd"cmTC_f4c3b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f4c3b.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f4c3b.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f4c3b.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f4c3b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f4c3b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f4c3b.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f4c3b.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f4c3b.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.70
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0b0c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:47:20.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0b0c6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0b0c6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_0b0c6.dir\\Debug\\cmTC_0b0c6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0b0c6.dir\\Debug\\cmTC_0b0c6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0b0c6.dir\\Debug\\cmTC_0b0c6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0b0c6.dir\\Debug\\\\" /Fd"cmTC_0b0c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0b0c6.dir\\Debug\\\\" /Fd"cmTC_0b0c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0b0c6.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0b0c6.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0b0c6.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0b0c6.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0b0c6.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0b0c6.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0b0c6.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0b0c6.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f81ca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 14:53:35.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f81ca.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f81ca.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_f81ca.dir\\Debug\\cmTC_f81ca.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f81ca.dir\\Debug\\cmTC_f81ca.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f81ca.dir\\Debug\\cmTC_f81ca.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f81ca.dir\\Debug\\\\" /Fd"cmTC_f81ca.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f81ca.dir\\Debug\\\\" /Fd"cmTC_f81ca.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f81ca.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f81ca.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f81ca.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f81ca.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f81ca.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f81ca.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f81ca.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_f81ca.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e5750.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 15:13:14.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e5750.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e5750.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_e5750.dir\\Debug\\cmTC_e5750.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e5750.dir\\Debug\\cmTC_e5750.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e5750.dir\\Debug\\cmTC_e5750.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e5750.dir\\Debug\\\\" /Fd"cmTC_e5750.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e5750.dir\\Debug\\\\" /Fd"cmTC_e5750.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e5750.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e5750.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e5750.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e5750.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e5750.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e5750.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e5750.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e5750.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.59
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_45938.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 15:17:17.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_45938.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_45938.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_45938.dir\\Debug\\cmTC_45938.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_45938.dir\\Debug\\cmTC_45938.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_45938.dir\\Debug\\cmTC_45938.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_45938.dir\\Debug\\\\" /Fd"cmTC_45938.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_45938.dir\\Debug\\\\" /Fd"cmTC_45938.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_45938.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_45938.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_45938.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_45938.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_45938.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_45938.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_45938.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_45938.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5d499.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 15:23:11.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_5d499.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5d499.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_5d499.dir\\Debug\\cmTC_5d499.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5d499.dir\\Debug\\cmTC_5d499.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5d499.dir\\Debug\\cmTC_5d499.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5d499.dir\\Debug\\\\" /Fd"cmTC_5d499.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5d499.dir\\Debug\\\\" /Fd"cmTC_5d499.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_5d499.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_5d499.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_5d499.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_5d499.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_5d499.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_5d499.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_5d499.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_5d499.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0183b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 15:26:14.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0183b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0183b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_0183b.dir\\Debug\\cmTC_0183b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0183b.dir\\Debug\\cmTC_0183b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0183b.dir\\Debug\\cmTC_0183b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0183b.dir\\Debug\\\\" /Fd"cmTC_0183b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0183b.dir\\Debug\\\\" /Fd"cmTC_0183b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0183b.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0183b.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0183b.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0183b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0183b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0183b.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0183b.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_0183b.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/OpenIGTLinkCMakeTests.cmake:15 (TRY_COMPILE)"
+      - "CMakeLists.txt:219 (INCLUDE)"
+    directories:
+      source: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+      binary: "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc "
+      CMAKE_MODULE_PATH: " D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/Modules"
+    buildResult:
+      variable: "OpenIGTLink_HAVE_GETSOCKNAME_WITH_SOCKLEN_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeTmp/SocklenT/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e1f83.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.18+a338add32 for .NET Framework
+        Build started 09/09/2025 15:29:07.
+        
+        Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e1f83.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e1f83.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_e1f83.dir\\Debug\\cmTC_e1f83.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e1f83.dir\\Debug\\cmTC_e1f83.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e1f83.dir\\Debug\\cmTC_e1f83.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e1f83.dir\\Debug\\\\" /Fd"cmTC_e1f83.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e1f83.dir\\Debug\\\\" /Fd"cmTC_e1f83.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx
+          igtlTestSocklenT.cxx
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e1f83.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e1f83.vcxproj]
+        D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e1f83.vcxproj]
+        Done Building Project "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e1f83.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e1f83.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,25): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e1f83.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(11,35): error C2059: syntax error: ')' [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e1f83.vcxproj]
+          D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\CMake\\igtlTestSocklenT.cxx(12,14): error C2065: 'socklen_t': undeclared identifier [D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\CMakeTmp\\SocklenT\\CMakeFiles\\CMakeTmp\\cmTC_e1f83.vcxproj]
+        
+            0 Warning(s)
+            3 Error(s)
+        
+        Time Elapsed 00:00:00.63
+        
+      exitCode: 1
+...

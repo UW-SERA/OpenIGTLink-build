@@ -1,0 +1,50 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/3.30.0-rc1/CMakeCCompiler.cmake
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/3.30.0-rc1/CMakeCXXCompiler.cmake
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/3.30.0-rc1/CMakeRCCompiler.cmake
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/CMakeFiles/3.30.0-rc1/CMakeSystem.cmake
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/GenerateOpenIGTLinkConfig.cmake
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/OpenIGTLinkCMakeTests.cmake
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/OpenIGTLinkConfigPlatform.cmake
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMake/igtlTestSocklenT.cxx
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/CMakeLists.txt
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/OpenIGTLinkConfig.cmake.in
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/UseOpenIGTLink.cmake.in
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/igtlConfigure.h.in
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/igtlTypeConfig.h.in
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/igtl_typeconfig.h.in

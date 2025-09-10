@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/Receiver/CMakeLists.txt
+  ReceiveClient.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCapabilityMessage.h(41,73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../../OpenIGTLink/Examples/Receiver/ReceiveClient.cxx')
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Examples\Receiver\ReceiveClient.cxx(246,55): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/ReceiveClient.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/ReceiveClient.exp
+  ReceiveClient.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\ReceiveClient.exe

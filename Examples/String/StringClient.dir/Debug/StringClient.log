@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/String/CMakeLists.txt
+  StringClient.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/StringClient.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/StringClient.exp
+  StringClient.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\StringClient.exe

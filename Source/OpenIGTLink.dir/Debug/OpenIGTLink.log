@@ -1,0 +1,126 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Source/CMakeLists.txt
+  igtl_header.c
+  igtl_image.c
+  igtl_transform.c
+  igtl_status.c
+  igtl_util.c
+  igtl_position.c
+  igtl_capability.c
+  igtl_colortable.c
+  igtl_imgmeta.c
+  igtl_lbmeta.c
+  igtl_point.c
+  igtl_tdata.c
+  igtl_qtdata.c
+  igtl_trajectory.c
+  igtl_unit.c
+  igtl_sensor.c
+  igtl_string.c
+  igtl_ndarray.c
+  igtl_bind.c
+  igtl_qtrans.c
+  igtl_polydata.c
+  igtl_command.c
+  igtl_query.c
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_bind.c(609,59): warning C4267: '+=': conversion from 'size_t' to 'igtl_uint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_bind.c(647,59): warning C4267: '+=': conversion from 'size_t' to 'igtl_uint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_polydata.c(397,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_polydata.c(600,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_polydata.c(693,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  igtlClientSocket.cxx
+  igtlCapabilityMessage.cxx
+  igtlConditionVariable.cxx
+  igtlFastMutexLock.cxx
+  igtlImageMessage.cxx
+  igtlImageMessage2.cxx
+  igtlLightObject.cxx
+  igtlMath.cxx
+  igtlMessageBase.cxx
+  igtlMessageFactory.cxx
+  igtlMultiThreader.cxx
+  igtlMutexLock.cxx
+  igtlOSUtil.cxx
+  igtlObject.cxx
+  igtlObjectFactoryBase.cxx
+  igtlPositionMessage.cxx
+  igtlServerSocket.cxx
+  igtlSessionManager.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCapabilityMessage.h(41,73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../OpenIGTLink/Source/igtlCapabilityMessage.cxx')
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCapabilityMessage.cxx(105,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(181,42): warning C4267: '+=': conversion from 'size_t' to 'igtlUint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(196,70): warning C4267: 'return': conversion from 'size_t' to 'igtlUint16', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(224,34): warning C4267: '=': conversion from 'size_t' to 'igtl_uint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(373,42): warning C4267: '=': conversion from 'size_t' to 'igtl_uint16', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(375,52): warning C4267: '=': conversion from 'size_t' to 'igtl_uint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(916,38): warning C4805: '&=': unsafe mix of type 'bool' and type 'int' in operation
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(916,38): warning C4805: '&': unsafe mix of type 'bool' and type 'int' in operation
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCapabilityMessage.h(41,73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../OpenIGTLink/Source/igtlMessageFactory.cxx')
+  
+  igtlSimpleFastMutexLock.cxx
+  igtlSocket.cxx
+  igtlStatusMessage.cxx
+  igtlTimeStamp.cxx
+  igtlTransformMessage.cxx
+  igtlColorTableMessage.cxx
+  igtlImageMetaMessage.cxx
+  igtlLabelMetaMessage.cxx
+  igtlPointMessage.cxx
+  igtlTrackingDataMessage.cxx
+  igtlPolyDataMessage.cxx
+  igtlQuaternionTrackingDataMessage.cxx
+  igtlTrajectoryMessage.cxx
+  igtlStringMessage.cxx
+  igtlUnit.cxx
+  igtlSensorMessage.cxx
+  igtlBindMessage.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTrackingDataMessage.cxx(278,39): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTrackingDataMessage.cxx(290,39): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTrackingDataMessage.cxx(337,77): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPointMessage.cxx(181,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPointMessage.cxx(193,32): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPointMessage.cxx(248,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlLabelMetaMessage.cxx(186,36): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlLabelMetaMessage.cxx(198,36): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlLabelMetaMessage.cxx(252,99): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  igtlNDArrayMessage.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlImageMetaMessage.cxx(208,36): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlImageMetaMessage.cxx(220,36): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlImageMetaMessage.cxx(276,101): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPolyDataMessage.cxx(61,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPolyDataMessage.cxx(161,27): warning C4267: 'return': conversion from 'size_t' to 'igtlUint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPolyDataMessage.cxx(188,31): warning C4267: 'return': conversion from 'size_t' to 'igtlUint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPolyDataMessage.cxx(199,29): warning C4267: '+=': conversion from 'size_t' to 'igtlUint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlPolyDataMessage.cxx(963,33): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  igtlCommandMessage.cxx
+  igtlQueryMessage.cxx
+  igtlMessageRTPWrapper.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlQuaternionTrackingDataMessage.cxx(283,49): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlQuaternionTrackingDataMessage.cxx(295,49): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlQuaternionTrackingDataMessage.cxx(346,88): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTrajectoryMessage.cxx(233,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTrajectoryMessage.cxx(252,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  igtlGeneralSocket.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlTrajectoryMessage.cxx(313,80): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  igtlUDPClientSocket.cxx
+  igtlUDPServerSocket.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlNDArrayMessage.h(50,71): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../OpenIGTLink/Source/igtlNDArrayMessage.cxx')
+  
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlNDArrayMessage.cxx(112,18): warning C4267: 'initializing': conversion from 'size_t' to 'igtlUint16', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(47,36): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(53,36): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(78,36): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(211,66): warning C4267: 'argument': conversion from 'size_t' to 'igtl_uint16', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(229,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(312,36): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(342,66): warning C4267: 'argument': conversion from 'size_t' to 'igtl_uint16', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(453,66): warning C4267: 'argument': conversion from 'size_t' to 'igtl_uint16', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlCommandMessage.cxx(147,32): warning C4267: 'return': conversion from 'size_t' to 'igtlUint32', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageRTPWrapper.cxx(166,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageRTPWrapper.cxx(252,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlGeneralSocket.cxx(173,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/OpenIGTLink.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/OpenIGTLink.exp
+  OpenIGTLink.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\OpenIGTLink.dll

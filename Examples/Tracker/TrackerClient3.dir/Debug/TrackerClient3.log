@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/Tracker/CMakeLists.txt
+  TrackerClient3.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/TrackerClient3.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/TrackerClient3.exp
+  TrackerClient3.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\TrackerClient3.exe

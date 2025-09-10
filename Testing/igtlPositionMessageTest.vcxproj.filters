@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlPositionMessageTest.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5EC27C06-D6CD-3415-97CC-292F8E1E930A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
