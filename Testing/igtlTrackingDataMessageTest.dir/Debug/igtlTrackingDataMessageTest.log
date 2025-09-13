@@ -1,1 +1,4 @@
-﻿  igtlTrackingDataMessageTest.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlTrackingDataMessageTest.exe
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Testing/CMakeLists.txt
+  igtlTrackingDataMessageTest.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlTrackingDataMessageTest.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlTrackingDataMessageTest.exp
+  igtlTrackingDataMessageTest.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlTrackingDataMessageTest.exe

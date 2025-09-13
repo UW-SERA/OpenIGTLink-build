@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/googletest"
+		},
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/4b1ca22af6f394cfea89f2541f5adfdf/googletest.rule"
+		},
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/0ab251e8a35e42bb3b1b76606cf0be56/googletest-complete.rule"
+		},
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/5b795f589ed6629411dda8a9caf48b41/googletest-build.rule"
+		},
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/5b795f589ed6629411dda8a9caf48b41/googletest-configure.rule"
+		},
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/5b795f589ed6629411dda8a9caf48b41/googletest-download.rule"
+		},
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/5b795f589ed6629411dda8a9caf48b41/googletest-install.rule"
+		},
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/5b795f589ed6629411dda8a9caf48b41/googletest-mkdir.rule"
+		},
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/5b795f589ed6629411dda8a9caf48b41/googletest-patch.rule"
+		},
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/5b795f589ed6629411dda8a9caf48b41/googletest-test.rule"
+		},
+		{
+			"file" : "D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/5b795f589ed6629411dda8a9caf48b41/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

@@ -1,0 +1,152 @@
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKEFILES\5B795F589ED6629411DDA8A9CAF48B41\GOOGLETEST-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/tmp/googletest-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKEFILES\5B795F589ED6629411DDA8A9CAF48B41\GOOGLETEST-DOWNLOAD.RULE
+setlocal
+cd D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/verify-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/extract-googletest.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKEFILES\5B795F589ED6629411DDA8A9CAF48B41\GOOGLETEST-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKEFILES\5B795F589ED6629411DDA8A9CAF48B41\GOOGLETEST-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKEFILES\5B795F589ED6629411DDA8A9CAF48B41\GOOGLETEST-CONFIGURE.RULE
+setlocal
+cd D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKEFILES\5B795F589ED6629411DDA8A9CAF48B41\GOOGLETEST-BUILD.RULE
+setlocal
+cd D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKEFILES\5B795F589ED6629411DDA8A9CAF48B41\GOOGLETEST-INSTALL.RULE
+setlocal
+cd D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKEFILES\5B795F589ED6629411DDA8A9CAF48B41\GOOGLETEST-TEST.RULE
+setlocal
+cd D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\gtest-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKEFILES\0AB251E8A35E42BB3B1B76606CF0BE56\GOOGLETEST-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/Debug/googletest-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKEFILES\4B1CA22AF6F394CFEA89F2541F5ADFDF\GOOGLETEST.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\STUDIUM\TERM4\PROJECT\REPO\OPENIGTLINK-BUILD\TESTING\GOOGLETEST-DOWNLOAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download -BD:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download --check-stamp-file D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,1 +1,4 @@
-﻿  igtlMultiThreaderTest2.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlMultiThreaderTest2.exe
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Testing/CMakeLists.txt
+  igtlMultiThreaderTest2.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlMultiThreaderTest2.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlMultiThreaderTest2.exp
+  igtlMultiThreaderTest2.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlMultiThreaderTest2.exe

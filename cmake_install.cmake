@@ -89,6 +89,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Source/igtlutil/cmake_install.cmake")
   include("D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Source/cmake_install.cmake")
   include("D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Tools/cmake_install.cmake")
+  include("D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/cmake_install.cmake")
   include("D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Examples/cmake_install.cmake")
   include("D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Documents/Doxygen/cmake_install.cmake")
 

@@ -1,1 +1,4 @@
-﻿  igtlConditionVariableTest.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlConditionVariableTest.exe
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Testing/CMakeLists.txt
+  igtlConditionVariableTest.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlConditionVariableTest.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlConditionVariableTest.exp
+  igtlConditionVariableTest.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlConditionVariableTest.exe

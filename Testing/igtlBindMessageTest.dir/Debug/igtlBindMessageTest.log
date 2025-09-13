@@ -1,1 +1,4 @@
-﻿  igtlBindMessageTest.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlBindMessageTest.exe
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Testing/CMakeLists.txt
+  igtlBindMessageTest.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlBindMessageTest.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlBindMessageTest.exp
+  igtlBindMessageTest.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlBindMessageTest.exe

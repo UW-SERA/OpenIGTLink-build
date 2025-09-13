@@ -1,0 +1,14 @@
+# Target labels
+ googlemock
+# Source files and their labels
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/googlemock
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/4b1ca22af6f394cfea89f2541f5adfdf/googlemock.rule
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/0ab251e8a35e42bb3b1b76606cf0be56/googlemock-complete.rule
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/500c0f89c17952ffd3a670ea31f8914f/googlemock-build.rule
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/500c0f89c17952ffd3a670ea31f8914f/googlemock-configure.rule
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/500c0f89c17952ffd3a670ea31f8914f/googlemock-download.rule
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/500c0f89c17952ffd3a670ea31f8914f/googlemock-install.rule
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/500c0f89c17952ffd3a670ea31f8914f/googlemock-mkdir.rule
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/500c0f89c17952ffd3a670ea31f8914f/googlemock-patch.rule
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/500c0f89c17952ffd3a670ea31f8914f/googlemock-test.rule
+D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Testing/googletest-download/CMakeFiles/500c0f89c17952ffd3a670ea31f8914f/googlemock-update.rule

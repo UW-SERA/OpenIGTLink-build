@@ -1,1 +1,4 @@
-﻿  igtlTimeStampTest1.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlTimeStampTest1.exe
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Testing/CMakeLists.txt
+  igtlTimeStampTest1.cxx
+     Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlTimeStampTest1.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/igtlTimeStampTest1.exp
+  igtlTimeStampTest1.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\igtlTimeStampTest1.exe

@@ -27,7 +27,7 @@ BUILD_GENERATE_PIC:BOOL=ON
 BUILD_SHARED_LIBS:BOOL=ON
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=OFF
+BUILD_TESTING:BOOL=ON
 
 //Value Computed by CMake
 Bind_BINARY_DIR:STATIC=D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/Examples/Bind
@@ -39,7 +39,7 @@ Bind_IS_TOP_LEVEL:STATIC=OFF
 Bind_SOURCE_DIR:STATIC=D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Examples/Bind
 
 //Path to a program.
-CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe
+CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/lib.exe
 
 //For backwards compatibility, what version of CMake commands and
 // syntax should this version of CMake try to support.
@@ -87,7 +87,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
 CMAKE_C_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=/machine:x64
+CMAKE_EXE_LINKER_FLAGS:STRING=/machine:X86
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL
@@ -108,11 +108,11 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=D:/STUDIUM/Term4/Project/Repo/OpenIGTLin
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/OpenIGTLink
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe
+CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/link.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
-CMAKE_MODULE_LINKER_FLAGS:STRING=/machine:x64
+CMAKE_MODULE_LINKER_FLAGS:STRING=/machine:X86
 
 //Flags used by the linker during the creation of modules during
 // DEBUG builds.
@@ -162,7 +162,7 @@ CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
-CMAKE_SHARED_LINKER_FLAGS:STRING=/machine:x64
+CMAKE_SHARED_LINKER_FLAGS:STRING=/machine:X86
 
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.
@@ -189,7 +189,7 @@ CMAKE_SKIP_RPATH:BOOL=OFF
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
-CMAKE_STATIC_LINKER_FLAGS:STRING=/machine:x64
+CMAKE_STATIC_LINKER_FLAGS:STRING=/machine:X86
 
 //Flags used by the linker during the creation of static libraries
 // during DEBUG builds.
@@ -555,6 +555,8 @@ CMAKE_CACHE_PATCH_VERSION:INTERNAL=0
 CMAKE_COMMAND:INTERNAL=C:/Program Files/CMake/bin/cmake.exe
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files/CMake/bin/cpack.exe
+//ADVANCED property for variable: CMAKE_CTEST_COMMAND
+CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files/CMake/bin/ctest.exe
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
@@ -600,7 +602,7 @@ CMAKE_GENERATOR:INTERNAL=Visual Studio 17 2022
 //Generator instance identifier.
 CMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community
 //Name of generator platform.
-CMAKE_GENERATOR_PLATFORM:INTERNAL=
+CMAKE_GENERATOR_PLATFORM:INTERNAL=Win32
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Test CMAKE_HAVE_LIBC_PTHREAD
@@ -629,7 +631,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=23
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -678,7 +680,7 @@ CMAKE_SIZEOF_LONG_LONG:INTERNAL=8
 //CHECK_TYPE_SIZE: sizeof(short)
 CMAKE_SIZEOF_SHORT:INTERNAL=2
 //CHECK_TYPE_SIZE: sizeof(void*)
-CMAKE_SIZEOF_VOID_P:INTERNAL=8
+CMAKE_SIZEOF_VOID_P:INTERNAL=4
 //CHECK_TYPE_SIZE: sizeof(__int64)
 CMAKE_SIZEOF___INT64:INTERNAL=8
 //ADVANCED property for variable: CMAKE_SKIP_INSTALL_RPATH

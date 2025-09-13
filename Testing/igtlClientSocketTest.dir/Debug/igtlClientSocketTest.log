@@ -1,4 +1,5 @@
-﻿  igtlClientSocketTest.cxx
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Testing/CMakeLists.txt
+  igtlClientSocketTest.cxx
 D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Testing\igtlClientSocketTest.cxx(28,18): error C2039: '_': is not a member of 'testing'
       D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Testing\igtlTestConfig.h(41,11):
       see declaration of 'testing'
