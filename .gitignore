@@ -10,6 +10,7 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.ipch
 
 # Linker files
 *.ilk
@@ -20,7 +21,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+# *.dll
 
 # Fortran module files
 *.mod
@@ -30,10 +31,10 @@
 *.lai
 *.la
 *.a
-*.lib
+# *.lib
 
 # Executables
-*.exe
+# *.exe
 *.out
 *.app
 
