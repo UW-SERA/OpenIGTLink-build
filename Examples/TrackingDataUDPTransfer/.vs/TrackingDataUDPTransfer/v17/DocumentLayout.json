@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink-build\\Examples\\TrackingDataUDPTransfer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F67F7D3-624E-352E-8289-CD80C1243351}|TrackingDataServerUDPTransfer.vcxproj|D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\Examples\\TrackingDataUDPTransfer\\TrackingDataServerUDPTransfer.cxx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrackingDataServerUDPTransfer.cxx",
+              "DocumentMoniker": "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\Examples\\TrackingDataUDPTransfer\\TrackingDataServerUDPTransfer.cxx",
+              "RelativeDocumentMoniker": "..\\..\\..\\OpenIGTLink\\Examples\\TrackingDataUDPTransfer\\TrackingDataServerUDPTransfer.cxx",
+              "ToolTip": "D:\\STUDIUM\\Term4\\Project\\Repo\\OpenIGTLink\\Examples\\TrackingDataUDPTransfer\\TrackingDataServerUDPTransfer.cxx",
+              "RelativeToolTip": "..\\..\\..\\OpenIGTLink\\Examples\\TrackingDataUDPTransfer\\TrackingDataServerUDPTransfer.cxx",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAADkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-15T16:17:42.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

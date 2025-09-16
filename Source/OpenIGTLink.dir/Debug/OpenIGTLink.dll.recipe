@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\Examples\TrackingData\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\OpenIGTLink.dll</FullPath>

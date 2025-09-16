@@ -1,4 +1,5 @@
-﻿  igtl_header.c
+﻿  Building Custom Rule D:/STUDIUM/Term4/Project/Repo/OpenIGTLink/Source/CMakeLists.txt
+  igtl_header.c
   igtl_image.c
   igtl_transform.c
   igtl_status.c
@@ -40,10 +41,6 @@
   igtlServerSocket.cxx
   igtlSessionManager.cxx
   igtlSimpleFastMutexLock.cxx
-D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(196,70): warning C4267: 'return': conversion from 'size_t' to 'igtlUint16', possible loss of data
-D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(373,42): warning C4267: '=': conversion from 'size_t' to 'igtl_uint16', possible loss of data
-D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(916,38): warning C4805: '&=': unsafe mix of type 'bool' and type 'int' in operation
-D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(916,38): warning C4805: '&': unsafe mix of type 'bool' and type 'int' in operation
   igtlSocket.cxx
   igtlStatusMessage.cxx
   igtlTimeStamp.cxx
@@ -56,6 +53,10 @@ D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(916,38): wa
   igtlPolyDataMessage.cxx
   igtlQuaternionTrackingDataMessage.cxx
   igtlTrajectoryMessage.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(196,70): warning C4267: 'return': conversion from 'size_t' to 'igtlUint16', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(373,42): warning C4267: '=': conversion from 'size_t' to 'igtl_uint16', possible loss of data
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(916,38): warning C4805: '&=': unsafe mix of type 'bool' and type 'int' in operation
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(916,38): warning C4805: '&': unsafe mix of type 'bool' and type 'int' in operation
   igtlStringMessage.cxx
   igtlUnit.cxx
   igtlSensorMessage.cxx
@@ -67,9 +68,9 @@ D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlMessageBase.cxx(916,38): wa
   igtlGeneralSocket.cxx
   igtlUDPClientSocket.cxx
   igtlUDPServerSocket.cxx
+D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlNDArrayMessage.cxx(112,18): warning C4267: 'initializing': conversion from 'size_t' to 'igtlUint16', possible loss of data
 D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(211,66): warning C4267: 'argument': conversion from 'size_t' to 'igtl_uint16', possible loss of data
 D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(342,66): warning C4267: 'argument': conversion from 'size_t' to 'igtl_uint16', possible loss of data
 D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlBindMessage.cxx(453,66): warning C4267: 'argument': conversion from 'size_t' to 'igtl_uint16', possible loss of data
-D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlNDArrayMessage.cxx(112,18): warning C4267: 'initializing': conversion from 'size_t' to 'igtlUint16', possible loss of data
      Creating library D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/OpenIGTLink.lib and object D:/STUDIUM/Term4/Project/Repo/OpenIGTLink-build/lib/Debug/OpenIGTLink.exp
   OpenIGTLink.vcxproj -> D:\STUDIUM\Term4\Project\Repo\OpenIGTLink-build\bin\Debug\OpenIGTLink.dll
