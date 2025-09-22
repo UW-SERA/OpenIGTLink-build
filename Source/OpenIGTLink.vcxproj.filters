@@ -196,6 +196,7 @@
     <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlUDPServerSocket.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\FRI-cpp\example\LBRWrenchLegOverlay\openigtlink\igtlMessageBase.cxx" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_header.h">
@@ -429,6 +430,7 @@
     <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlUDPServerSocket.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\FRI-cpp\example\LBRWrenchLegOverlay\openigtlink\igtlMessageBase.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\CMakeLists.txt" />

@@ -34,6 +34,7 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -341,6 +342,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\FRI-cpp\example\LBRWrenchLegOverlay\openigtlink\igtlMessageBase.cxx" />
     <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_header.c" />
     <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_image.c" />
     <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_transform.c" />
@@ -406,6 +408,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlGeneralSocket.cxx" />
     <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlUDPClientSocket.cxx" />
     <ClCompile Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlUDPServerSocket.cxx" />
+    <ClInclude Include="..\..\FRI-cpp\example\LBRWrenchLegOverlay\openigtlink\igtlMessageBase.h" />
     <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_header.h" />
     <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_image.h" />
     <ClInclude Include="D:\STUDIUM\Term4\Project\Repo\OpenIGTLink\Source\igtlutil\igtl_position.h" />
